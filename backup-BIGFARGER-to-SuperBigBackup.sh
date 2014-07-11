@@ -1,7 +1,9 @@
 # Most files on BigFarger
+
+        #--dry-run \
+        
 rsync  -ahir\
         --delete \
-        --dry-run \
         --exclude '.Trash-1000' \
         --exclude '$RECYCLE.BIN' \
         --exclude '._.DS_Store' \
