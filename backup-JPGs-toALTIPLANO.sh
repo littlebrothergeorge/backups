@@ -27,5 +27,5 @@ rsync  -ahir\
         --stats \
         --progress \
          ~/Pictures/OUR_PHOTOS/ \
-         /Volumes/AirportMain/OurPictures/OUR_PHOTOS-extract
+         /Volumes/AirportMain/OurPictures-LightRoomExtract
 
