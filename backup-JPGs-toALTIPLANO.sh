@@ -2,8 +2,9 @@
 ####################################
 # copying jpegs to altiplano for viewing
         #--dry-run \
+        #--delete \
         
-rsync  -ahir\
+rsync  -ahir \
         --delete \
         --include="*/" \
         --include="*.JPG" \
@@ -12,20 +13,20 @@ rsync  -ahir\
         --include="*.gif" \
         --include="*.png" \
         --include="*.PNG" \
-        --include="*.MPG" \
-        --include="*.mpg" \
-        --include="*.AVI" \
-        --include="*.avi" \
-        --include="*.MOV" \
-        --include="*.mov" \
-        --include="*.MP3" \
-        --include="*.mp3" \
-        --include="*.MP4" \
-        --include="*.mp4" \
-        --include="*.mov" \
+        --exclude="*.MPG" \
+        --exclude="*.mpg" \
+        --exclude="*.AVI" \
+        --exclude="*.avi" \
+        --exclude="*.MOV" \
+        --exclude="*.mov" \
+        --exclude="*.MP3" \
+        --exclude="*.mp3" \
+        --exclude="*.MP4" \
+        --exclude="*.mp4" \
+        --exclude="*.mov" \
         --exclude="*" \
         --stats \
         --progress \
-         ~/Pictures/OUR_PHOTOS/ \
-         /Volumes/AirportMain/OurPictures-LightRoomExtract
+         /Volumes/DataDrive/OUR_PHOTOS/2015/ \
+         /Volumes/AirportMain/OurPictures-LightRoomExtract/2015
 
