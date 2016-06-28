@@ -1,6 +1,6 @@
 
 ####################################
-# copying jpegs produced by the jf Folder Publisher plugin, to altiplano for viewing
+# copying all Raw and JPG's to altiplano for safe keeping
         #--dry-run \
         #--delete \
         
@@ -28,6 +28,6 @@ rsync  -ahir \
         --progress \
         --dry-run \
         --delete \
-         /Volumes/DataDrive/OUR_PHOTOS/2015/ \
-         /Volumes/AirportMain/OurPictures-LightRoomExtract/2015/
+         /Volumes/DataDrive/OUR_PHOTOS/ \
+         /Volumes/AirportMain/OUR_PHOTOS
 

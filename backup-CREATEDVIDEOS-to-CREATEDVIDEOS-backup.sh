@@ -4,7 +4,6 @@
         #--dry-run \
         
 rsync  -ahir \
-		--dry-run \
         --delete \
         --exclude '.Trashes' \
         --exclude '.Spotlight-V100' \
